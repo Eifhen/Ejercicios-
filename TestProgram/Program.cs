@@ -10,13 +10,9 @@ namespace TestProgram
 	{
 		static void Main(string[] args)
 		{
-			
-			Menu menu = new Menu();
-			int Tipo_Opearacion = 0;
 
-			menu.Ini(Tipo_Opearacion);
-			
-		
+			Main_Manu main_Manu = new Main_Manu();
+			main_Manu.Operaciones();	
 
 		}
 	}

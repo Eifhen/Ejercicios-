@@ -37,8 +37,7 @@ namespace TestProgram
 				Console.WriteLine(" (10) Operacion 10 : ");
 				Console.WriteLine("");
 				Console.WriteLine("**************************************************************************");
-				Console.Write(" (11) Operacion 11 : Siguiente Menu. || ");
-				Console.WriteLine(" (99) Operacion : Volver al Menu Anterior ");
+				Console.WriteLine(" (99) Operacion : Salir del Menu Actual. ");
 				Console.WriteLine("**************************************************************************");
 
 				linea = Console.ReadLine();
@@ -77,14 +76,15 @@ namespace TestProgram
 					case 99:
 						Console.Clear();
 						Console.WriteLine("Has Elegido Volver al Menu Anterior");
+						Console.ReadLine();
 						salir = 1;
 						break;
 					default:
 						Console.WriteLine();
 						Console.WriteLine("El numero que ingreso esta fuera de rango");
+						Console.ReadLine();
 						break;
 				}
-				Console.ReadKey();
 
 			}
 

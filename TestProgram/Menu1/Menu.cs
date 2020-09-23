@@ -18,11 +18,10 @@ namespace TestProgram
 		Tarifa_Telefonica tarifa_telefonica = new Tarifa_Telefonica();
 		Triangulos triangulos = new Triangulos();
 		EjercicioPropuesto2 ejercicioPropuesto2 = new EjercicioPropuesto2();
-		Menu_2 menu2 = new Menu_2();
-		public void Ini(int Tipo_Operacion) 
+		public void Ini() 
 		{
 			int salir = 0;
-			
+			int Tipo_Operacion = 0;
 			while (salir == 0)
 			{
 				Console.Clear();
@@ -42,8 +41,7 @@ namespace TestProgram
 				Console.WriteLine(" (10) Operacion 10 : Ejercicio Propuesto 2");
 				Console.WriteLine("");
 				Console.WriteLine("**************************************************************************");
-				Console.Write(" (11) Operacion 11 : Siguiente Menu. || ");
-				Console.WriteLine(" (99) Operacion : Salir ");
+				Console.WriteLine(" (99) Operacion : Salir del Menu Actual");
 				Console.WriteLine("**************************************************************************");
 
 				string tipo = Console.ReadLine();
@@ -116,13 +114,7 @@ namespace TestProgram
 						Console.Clear();
 						ejercicioPropuesto2.Operaciones();
 						break;
-					case 11:
-						Console.WriteLine("A continuacion seras llevado al siguiente menu.");
-						Console.ReadLine();
-						Console.Clear();
-						menu2.ini();
 
-						break;
 					case 99:
 						Console.Clear();
 						Console.WriteLine("****************************************");
@@ -135,9 +127,10 @@ namespace TestProgram
 					default:
 						Console.WriteLine();
 						Console.WriteLine("El numero que ingreso esta fuera de rango");
+						Console.ReadLine();
 						break;
 				}
-				Console.ReadKey();
+			
 			}
 		}
 	}
