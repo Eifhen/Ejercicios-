@@ -48,7 +48,9 @@
     <Compile Include="Menu1\FormatoSalida.cs" />
     <Compile Include="Menu1\MathTest.cs" />
     <Compile Include="Menu1\Menu.cs" />
+    <Compile Include="Menu2\Calificacion.cs" />
     <Compile Include="Menu2\Dia_Semana.cs" />
+    <Compile Include="Menu2\Ejercicio_Propuesto3.cs" />
     <Compile Include="Menu2\Estado_Civil.cs" />
     <Compile Include="Menu2\Menu_2.cs" />
     <Compile Include="Menu1\Numero_Intermedio.cs" />
