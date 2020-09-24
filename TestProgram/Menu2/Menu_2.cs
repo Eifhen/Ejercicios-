@@ -17,6 +17,9 @@ namespace TestProgram
 		Tabla_Multiplicar tabla_Multiplicar = new Tabla_Multiplicar();
 		Hospital presupuesto_Hospital = new Hospital();
 		Suma_Numeros_Pares_Impares numeros_Pares_Impares = new Suma_Numeros_Pares_Impares();
+		Tablas_Multiplicar Tablas = new Tablas_Multiplicar();
+		Suma_N_Numeros suma_N = new Suma_N_Numeros();
+		Mayor_Menor_N_Numeros mayor_menor_n = new Mayor_Menor_N_Numeros();
 		public void ini() 
 		{
 			int salir = 0;
@@ -38,8 +41,8 @@ namespace TestProgram
 				Console.WriteLine("  (6) Operacion  6 : Presupuesto Areas Hospital.");
 				Console.WriteLine("  (7) Operacion  7 : Suma Numero Par e Impar.");
 				Console.WriteLine("  (8) Operacion  8 : Tablas de Multiplicar.");
-				Console.WriteLine("  (9) Operacion  9 : ");
-				Console.WriteLine(" (10) Operacion 10 : ");
+				Console.WriteLine("  (9) Operacion  9 : Suma de N numeros.");
+				Console.WriteLine(" (10) Operacion 10 : Mayor o Menor N Numeros.");
 				Console.WriteLine("");
 				Console.WriteLine("**************************************************************************");
 				Console.WriteLine(" (99) Operacion : Salir del Menu Actual. ");
@@ -86,12 +89,19 @@ namespace TestProgram
 						numeros_Pares_Impares.Operaciones();
 						break;
 					case 8:
+						Console.WriteLine("Has Elegido la operacion : Tablas de Multiplicar.");
+						Console.ReadLine();
+						Tablas.Operaciones();
 						break;
 					case 9:
+						Console.WriteLine("Has Elegido la operacion : Suma de N numeros.");
+						Console.ReadLine();
+						suma_N.Operaciones();
 						break;
 					case 10:
-						break;
-					case 11:
+						Console.WriteLine("Has Elegido la operacion : Mayor o Menor de N numeros.");
+						Console.ReadLine();
+						mayor_menor_n.Operaciones();
 						break;
 					case 99:
 						Console.Clear();

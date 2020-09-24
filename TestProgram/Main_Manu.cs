@@ -25,7 +25,7 @@ namespace TestProgram
 				Console.WriteLine("*                                                               *");
 				Console.WriteLine("*   [1] -- IR Al MENU 1                                         *");
 				Console.WriteLine("*   [2] -- IR Al MENU 2                                         *");
-				Console.WriteLine("*   [3] --                                                      *");
+				Console.WriteLine("*   [3] -- IR AL MENU 3                                         *");
 				Console.WriteLine("*   [4] --                                                      *");
 				Console.WriteLine("*                                                               *");
 				Console.WriteLine("*****************************************************************");

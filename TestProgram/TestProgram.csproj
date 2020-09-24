@@ -60,6 +60,8 @@
     <Compile Include="Menu1\Operacion3.cs" />
     <Compile Include="Menu1\Operacion4.cs" />
     <Compile Include="Menu2\Suma_Numeros_Pares_Impares.cs" />
+    <Compile Include="Menu2\Suma_N_Numeros.cs" />
+    <Compile Include="Menu2\Tablas_Multiplicar.cs" />
     <Compile Include="Menu2\Tabla_Multiplicar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
