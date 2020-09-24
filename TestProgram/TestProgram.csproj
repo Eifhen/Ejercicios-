@@ -52,12 +52,15 @@
     <Compile Include="Menu2\Dia_Semana.cs" />
     <Compile Include="Menu2\Ejercicio_Propuesto3.cs" />
     <Compile Include="Menu2\Estado_Civil.cs" />
+    <Compile Include="Menu2\Hospital.cs" />
     <Compile Include="Menu2\Menu_2.cs" />
     <Compile Include="Menu1\Numero_Intermedio.cs" />
     <Compile Include="Menu1\Operacion1.cs" />
     <Compile Include="Menu1\Operacion2.cs" />
     <Compile Include="Menu1\Operacion3.cs" />
     <Compile Include="Menu1\Operacion4.cs" />
+    <Compile Include="Menu2\Suma_Numeros_Pares_Impares.cs" />
+    <Compile Include="Menu2\Tabla_Multiplicar.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Menu1\Tarifa_Telefonica.cs" />
