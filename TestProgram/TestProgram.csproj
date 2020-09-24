@@ -53,6 +53,7 @@
     <Compile Include="Menu2\Ejercicio_Propuesto3.cs" />
     <Compile Include="Menu2\Estado_Civil.cs" />
     <Compile Include="Menu2\Hospital.cs" />
+    <Compile Include="Menu2\Mayor_Menor_N_Numeros.cs" />
     <Compile Include="Menu2\Menu_2.cs" />
     <Compile Include="Menu1\Numero_Intermedio.cs" />
     <Compile Include="Menu1\Operacion1.cs" />
@@ -63,6 +64,8 @@
     <Compile Include="Menu2\Suma_N_Numeros.cs" />
     <Compile Include="Menu2\Tablas_Multiplicar.cs" />
     <Compile Include="Menu2\Tabla_Multiplicar.cs" />
+    <Compile Include="Menu3\Serie_Fibonacci .cs" />
+    <Compile Include="Menu3\Menu_3.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Menu1\Tarifa_Telefonica.cs" />
@@ -71,5 +74,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

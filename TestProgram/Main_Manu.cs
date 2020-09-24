@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestProgram.Menu3;
 
 namespace TestProgram
 {
 	class Main_Manu
 	{
-
+		
 		Menu_2 menu2 = new Menu_2();
 		Menu menu1 = new Menu();
+		Menu_3 menu3 = new Menu_3();
 		public void Operaciones() 
 		{
 			string linea;
@@ -49,6 +51,16 @@ namespace TestProgram
 						Console.WriteLine("Has Seleccionado el MENU 2");
 						Console.ReadLine();
 						menu2.ini();
+						break;
+					case 3:
+						Console.Clear();
+						Console.WriteLine("Has Seleccionado el MENU 3");
+						Console.ReadLine();
+						menu3.Operaciones();
+						break;
+					case 4:
+						Console.Clear();
+					
 						break;
 					case 99:
 						Console.Clear();
