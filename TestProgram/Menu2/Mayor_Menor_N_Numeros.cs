@@ -38,7 +38,12 @@ namespace TestProgram.Menu2
 				if (numero < numero_Menor) numero_Menor = numero;
 			}
 			Console.WriteLine("***********************************************************");
-			Console.WriteLine("La diferencia es : ");
+			Console.WriteLine("El numero mayor es : {0}", numero_Mayor);
+			Console.WriteLine("El numero menor es : {0}", numero_Menor);
+			Console.WriteLine("***********************************************************");
+			Console.WriteLine("La diferencia es : {0}", (numero_Mayor - numero_Menor));
+		
+			Console.ReadLine();
 
 
 		}

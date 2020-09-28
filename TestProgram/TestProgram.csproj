@@ -68,6 +68,7 @@
     <Compile Include="Menu3\Estadistica_por_Vocal.cs" />
     <Compile Include="Menu3\Factorial_Numero.cs" />
     <Compile Include="Menu3\Funciones_Cadena.cs" />
+    <Compile Include="Menu3\Movimiento_Frase.cs" />
     <Compile Include="Menu3\Numeros_Aleatorios_y_ASCII.cs" />
     <Compile Include="Menu3\Serie_Fibonacci .cs" />
     <Compile Include="Menu3\Menu_3.cs" />
