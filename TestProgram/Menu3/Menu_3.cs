@@ -9,6 +9,8 @@ namespace TestProgram.Menu3
 	class Menu_3
 	{
 		Serie_Fibonacci serie_Fibonacci = new Serie_Fibonacci();
+		Numeros_Aleatorios_y_ASCII numeros_Aleatorios_Y_ASCII = new Numeros_Aleatorios_y_ASCII();
+		Funciones_Cadena funciones_Cadena = new Funciones_Cadena();
 		public void Operaciones() 
 		{
 			string linea;
@@ -23,15 +25,15 @@ namespace TestProgram.Menu3
 				Console.WriteLine("  [ Selecciona la Operacion que desea realizar ] ");
 				Console.WriteLine("****************************************************************************");
 				Console.WriteLine("  (1) Operacion  1 : Serie de Fibonacci.  ");
-				Console.WriteLine("  (2) Operacion  2 : ");
-				Console.WriteLine("  (3) Operacion  3 : ");
-				Console.WriteLine("  (4) Operacion  4 : ");
-				Console.WriteLine("  (5) Operacion  5 : ");
-				Console.WriteLine("  (6) Operacion  6 : ");
-				Console.WriteLine("  (7) Operacion  7 : ");
-				Console.WriteLine("  (8) Operacion  8 : ");
-				Console.WriteLine("  (9) Operacion  9 : ");
-				Console.WriteLine(" (10) Operacion 10 : ");
+				Console.WriteLine("  (2) Operacion  2 : Numeros Aleatorios y Caracteres ASCII. ");
+				Console.WriteLine("  (3) Operacion  3 : Funciones de Cadena.");
+				Console.WriteLine("  (4) Operacion  4 : Simulacion de un Relog Digital.");
+				Console.WriteLine("  (5) Operacion  5 : Cantidad de Vocales Cerradas. ");
+				Console.WriteLine("  (6) Operacion  6 : Estadistica por Vocal.");
+				Console.WriteLine("  (7) Operacion  7 : Factorial de un Numero.");
+				Console.WriteLine("  (8) Operacion  8 : Serie de un Numero.");
+				Console.WriteLine("  (9) Operacion  9 : Sucesion de N Cuadrados.");
+				Console.WriteLine(" (10) Operacion 10 : Movimiento de una Frase");
 				Console.WriteLine("");
 				Console.WriteLine("**************************************************************************");
 				Console.WriteLine(" (99) Operacion : Salir del Menu Actual. ");
@@ -50,48 +52,57 @@ namespace TestProgram.Menu3
 						break;
 					case 2:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Opcion : Numeros Aleatorios y Caracteres ASCII.");
 						Console.ReadLine();
+						numeros_Aleatorios_Y_ASCII.Operaciones();
 						break;
 					case 3:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Opcion : Funciones de Cadena.");
 						Console.ReadLine();
+						funciones_Cadena.Operaciones();
 						break;
 					case 4:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Simulacion de un Relog Digital.");
 						Console.ReadLine();
+						Simulacion_Relog.Operaciones();
 						break;
 					case 5:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Cantidad Vocales Cerradas.");
 						Console.ReadLine();
+						Cantidad_Vocales_Cerradas.Operaciones();
 						break;
 					case 6:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Estadistica por Vocal.");
 						Console.ReadLine();
+						Estadistica_por_Vocal.Operaciones();
 						break;
 					case 7:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Factorial de un Numero.");
 						Console.ReadLine();
+						Factorial_Numero.Operaciones();
 						break;
 					case 8:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Serie de un Numero.");
 						Console.ReadLine();
+						Serie_Numero.Operaciones();
 						break;
 					case 9:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Sucesion de N Cuadrados ");
 						Console.ReadLine();
+						Sucesion_N_Cuadrados.Operaciones();
 						break;
 					case 10:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Movimiento de una Frase.");
 						Console.ReadLine();
+						Movimiento_Frase.Operaciones();
 						break;
 					case 99:
 						Console.Clear();
