@@ -25,7 +25,7 @@ namespace TestProgram.Menu4
 				Console.WriteLine("  (1) Operacion  1 : Movimiento Caracter por Caracter Horizontal.");
 				Console.WriteLine("  (2) Operacion  2 : Movimiento Caracter por Caracter Vertical");
 				Console.WriteLine("  (3) Operacion  3 : Ejercicio propuesto 3 ");
-				Console.WriteLine("  (4) Operacion  4 : ");
+				Console.WriteLine("  (4) Operacion  4 : Tabla de Multiplicar con While");
 				Console.WriteLine("  (5) Operacion  5 : ");
 				Console.WriteLine("  (6) Operacion  6 : ");
 				Console.WriteLine("  (7) Operacion  7 : ");
@@ -54,13 +54,15 @@ namespace TestProgram.Menu4
 						break;
 					case 3:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Elegido la Operacion : Ejercicio Propuesto 3");
 						Console.ReadLine();
+						Ejercicio_Propuesto.Operaciones();
 						break;
 					case 4:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Elegido la Operacion : Tabla de Multiplicar con While");
 						Console.ReadLine();
+						tabla_multiplicar_while.Operaciones();
 						break;
 					case 5:
 						Console.Clear();

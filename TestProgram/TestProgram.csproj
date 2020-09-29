@@ -75,9 +75,11 @@
     <Compile Include="Menu3\Serie_Numero.cs" />
     <Compile Include="Menu3\Simulacion_Relog.cs" />
     <Compile Include="Menu3\Sucesion_N_Cuadrados.cs" />
+    <Compile Include="Menu4\Ejercicio_Propuesto.cs" />
     <Compile Include="Menu4\Menu_4.cs" />
     <Compile Include="Menu4\Movimiento_Caracter.cs" />
     <Compile Include="Menu4\Movimiento_Caracter_Vertical.cs" />
+    <Compile Include="Menu4\tabla_multiplicar_while.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Menu1\Tarifa_Telefonica.cs" />
