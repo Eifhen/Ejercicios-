@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TestProgram.Menu3;
+using TestProgram.Menu4;
 
 namespace TestProgram
 {
@@ -13,6 +14,7 @@ namespace TestProgram
 		Menu_2 menu2 = new Menu_2();
 		Menu menu1 = new Menu();
 		Menu_3 menu3 = new Menu_3();
+		Menu_4 menu4 = new Menu_4();
 		public void Operaciones() 
 		{
 			string linea;
@@ -28,7 +30,7 @@ namespace TestProgram
 				Console.WriteLine("*   [1] -- IR Al MENU 1                                         *");
 				Console.WriteLine("*   [2] -- IR Al MENU 2                                         *");
 				Console.WriteLine("*   [3] -- IR AL MENU 3                                         *");
-				Console.WriteLine("*   [4] --                                                      *");
+				Console.WriteLine("*   [4] -- IR Al Menu 4                                         *");
 				Console.WriteLine("*                                                               *");
 				Console.WriteLine("*****************************************************************");
 				Console.WriteLine("*  [99] -- SALIR                                                *");
@@ -60,7 +62,14 @@ namespace TestProgram
 						break;
 					case 4:
 						Console.Clear();
-					
+						Console.WriteLine("Has Seleccionado el MENU 4");
+						Console.ReadLine();
+						menu4.Operaciones();
+						break;
+					case 5:
+						Console.Clear();
+						Console.WriteLine("El Menu 5 No esta disponible por el momento");
+						Console.ReadLine();
 						break;
 					case 99:
 						Console.Clear();
