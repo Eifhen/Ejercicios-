@@ -28,10 +28,10 @@ namespace TestProgram.Menu4
 				Console.WriteLine("  (4) Operacion  4 : Tabla de Multiplicar con While");
 				Console.WriteLine("  (5) Operacion  5 : Tablas de Multiplicar con While");
 				Console.WriteLine("  (6) Operacion  6 : Comprobar si es Numero Primo.");
-				Console.WriteLine("  (7) Operacion  7 : ");
-				Console.WriteLine("  (8) Operacion  8 : ");
-				Console.WriteLine("  (9) Operacion  9 : ");
-				Console.WriteLine(" (10) Operacion 10 : ");
+				Console.WriteLine("  (7) Operacion  7 : Factores Primos de un Numero.");
+				Console.WriteLine("  (8) Operacion  8 : Generar N Numeros Primos");
+				Console.WriteLine("  (9) Operacion  9 : Ejercicio Propuesto 4.");
+				Console.WriteLine(" (10) Operacion 10 : Verificacion de una Clave 3 Intentos.");
 				Console.WriteLine("");
 				Console.WriteLine("**************************************************************************");
 				Console.WriteLine(" (99) Operacion : Salir del Menu Actual. ");
@@ -78,23 +78,27 @@ namespace TestProgram.Menu4
 						break;
 					case 7:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Elegido la Operacion : Factores Primos de un Numero.");
 						Console.ReadLine();
+						Factores_Primos_de_un_Numero.Operaciones();
 						break;
 					case 8:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Elegido la Operacion : Generar N Numeros Primos");
 						Console.ReadLine();
+						Generar_N_Numeros_Primos.Operaciones();
 						break;
 					case 9:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Elegido la Operacion : Ejercicio Propuesto 4");
 						Console.ReadLine();
+						Ejercicio_Propuesto_4.Operaciones();
 						break;
 					case 10:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Elegido la Operacion : Verificacion de una Clave 3 Intentos.");
 						Console.ReadLine();
+						Verificacion_Clave.Operaciones();
 						break;
 					case 99:
 						Console.Clear();
