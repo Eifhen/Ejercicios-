@@ -26,8 +26,8 @@ namespace TestProgram.Menu4
 				Console.WriteLine("  (2) Operacion  2 : Movimiento Caracter por Caracter Vertical");
 				Console.WriteLine("  (3) Operacion  3 : Ejercicio propuesto 3 ");
 				Console.WriteLine("  (4) Operacion  4 : Tabla de Multiplicar con While");
-				Console.WriteLine("  (5) Operacion  5 : ");
-				Console.WriteLine("  (6) Operacion  6 : ");
+				Console.WriteLine("  (5) Operacion  5 : Tablas de Multiplicar con While");
+				Console.WriteLine("  (6) Operacion  6 : Comprobar si es Numero Primo.");
 				Console.WriteLine("  (7) Operacion  7 : ");
 				Console.WriteLine("  (8) Operacion  8 : ");
 				Console.WriteLine("  (9) Operacion  9 : ");
@@ -66,13 +66,15 @@ namespace TestProgram.Menu4
 						break;
 					case 5:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Elegido la Operacion : Tablas de Multiplicar con While");
 						Console.ReadLine();
+						Tablas_Multiplicar.Operaciones();
 						break;
 					case 6:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Elegido la Operacion : Comprobar si un Numero es Primo.");
 						Console.ReadLine();
+						Numero_Primo.Operaciones();
 						break;
 					case 7:
 						Console.Clear();

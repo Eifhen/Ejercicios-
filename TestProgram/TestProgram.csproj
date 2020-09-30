@@ -79,6 +79,8 @@
     <Compile Include="Menu4\Menu_4.cs" />
     <Compile Include="Menu4\Movimiento_Caracter.cs" />
     <Compile Include="Menu4\Movimiento_Caracter_Vertical.cs" />
+    <Compile Include="Menu4\Numero_Primo.cs" />
+    <Compile Include="Menu4\Tablas_Multiplicar.cs" />
     <Compile Include="Menu4\tabla_multiplicar_while.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
