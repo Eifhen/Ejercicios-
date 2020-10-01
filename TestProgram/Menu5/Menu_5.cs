@@ -30,8 +30,8 @@ namespace TestProgram.Menu5
 				Console.WriteLine("  (6) Operacion  6 : Frase Invertida Con While.");
 				Console.WriteLine("  (7) Operacion  7 : Ejercicio Propuesto 5.");
 				Console.WriteLine("  (8) Operacion  8 : Manipulacion de un Arreglo.");
-				Console.WriteLine("  (9) Operacion  9 : ");
-				Console.WriteLine(" (10) Operacion 10 : ");
+				Console.WriteLine("  (9) Operacion  9 : Intercalacion Minusculas y Mayusculas.");
+				Console.WriteLine(" (10) Operacion 10 : Generar Numeros Aleatorios en un Arreglo.");
 				Console.WriteLine("");
 				Console.WriteLine("**************************************************************************");
 				Console.WriteLine(" (99) Operacion : Salir del Menu Actual. ");
@@ -90,13 +90,15 @@ namespace TestProgram.Menu5
 						break;
 					case 9:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Intercalacion Minusculas y Mayusculas.");
 						Console.ReadLine();
+						Intercalacion_Minusculas_y_Mayusculas.Operaciones();
 						break;
 					case 10:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Numeros Aleatorios Arreglo");
 						Console.ReadLine();
+						Numeros_Aleatorios_Arreglo.Operaciones();
 						break;
 					case 99:
 						Console.Clear();

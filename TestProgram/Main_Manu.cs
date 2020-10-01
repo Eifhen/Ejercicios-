@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using TestProgram.Menu3;
 using TestProgram.Menu4;
 using TestProgram.Menu5;
+using TestProgram.Menu6;
 
 namespace TestProgram
 {
@@ -17,6 +18,7 @@ namespace TestProgram
 		Menu_3 menu3 = new Menu_3();
 		Menu_4 menu4 = new Menu_4();
 		Menu_5 menu5 = new Menu_5();
+		Menu_6 menu6 = new Menu_6();
 		public void Operaciones() 
 		{
 			string linea;
@@ -33,7 +35,8 @@ namespace TestProgram
 				Console.WriteLine("*   [2] -- IR Al MENU 2                                         *");
 				Console.WriteLine("*   [3] -- IR AL MENU 3                                         *");
 				Console.WriteLine("*   [4] -- IR Al Menu 4                                         *");
-				Console.WriteLine("*   [4] -- IR Al Menu 5                                         *");
+				Console.WriteLine("*   [5] -- IR Al Menu 5                                         *");
+				Console.WriteLine("*   [6] -- IR Al Menu 6                                         *");
 				Console.WriteLine("*                                                               *");
 				Console.WriteLine("*****************************************************************");
 				Console.WriteLine("*  [99] -- SALIR                                                *");
@@ -74,6 +77,32 @@ namespace TestProgram
 						Console.WriteLine("Has Seleccionado el MENU 5");
 						Console.ReadLine();
 						menu5.Operaciones();
+						break;
+					case 6:
+						Console.Clear();
+						Console.WriteLine("Has Seleccionado el MENU 6");
+						Console.ReadLine();
+						menu6.Operaciones();
+						break;
+					case 7:
+						Console.Clear();
+						Console.WriteLine("Has Seleccionado el MENU 7");
+						Console.ReadLine();
+						break;
+					case 8:
+						Console.Clear();
+						Console.WriteLine("Has Seleccionado el MENU 8");
+						Console.ReadLine();
+						break;
+					case 9:
+						Console.Clear();
+						Console.WriteLine("Has Seleccionado el MENU 9");
+						Console.ReadLine();
+						break;
+					case 10:
+						Console.Clear();
+						Console.WriteLine("Has Seleccionado el MENU 10");
+						Console.ReadLine();
 						break;
 					case 99:
 						Console.Clear();
