@@ -88,6 +88,7 @@
     <Compile Include="Menu4\Verificacion_Clave.cs" />
     <Compile Include="Menu5\Adivina_Numero.cs" />
     <Compile Include="Menu5\Control_Factura.cs" />
+    <Compile Include="Menu5\Ejercicio_Propuesto_5.cs" />
     <Compile Include="Menu5\Frase_Invertida.cs" />
     <Compile Include="Menu5\Menu_5.cs" />
     <Compile Include="Menu5\Numero_Aleatorio.cs" />

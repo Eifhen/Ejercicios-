@@ -24,12 +24,12 @@ namespace TestProgram.Menu5
 				Console.WriteLine("****************************************************************************");
 				Console.WriteLine("  (1) Operacion  1 : Generar un Numero Aleatorio entre 10 y 30.");
 				Console.WriteLine("  (2) Operacion  2 : Adivina un Numero.");
-				Console.WriteLine("  (3) Operacion  3 : Control de una Factura");
-				Console.WriteLine("  (4) Operacion  4 : Votaciones por Sector");
-				Console.WriteLine("  (5) Operacion  5 : Promedio de Sueldos");
-				Console.WriteLine("  (6) Operacion  6 : Frase Invertida Con While");
-				Console.WriteLine("  (7) Operacion  7 : ");
-				Console.WriteLine("  (8) Operacion  8 : ");
+				Console.WriteLine("  (3) Operacion  3 : Control de una Factura.");
+				Console.WriteLine("  (4) Operacion  4 : Votaciones por Sector.");
+				Console.WriteLine("  (5) Operacion  5 : Promedio de Sueldos.");
+				Console.WriteLine("  (6) Operacion  6 : Frase Invertida Con While.");
+				Console.WriteLine("  (7) Operacion  7 : Ejercicio Propuesto 5.");
+				Console.WriteLine("  (8) Operacion  8 : Manipulacion de un Arreglo.");
 				Console.WriteLine("  (9) Operacion  9 : ");
 				Console.WriteLine(" (10) Operacion 10 : ");
 				Console.WriteLine("");
@@ -78,13 +78,15 @@ namespace TestProgram.Menu5
 						break;
 					case 7:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Ejercicio Propuesto 5");
 						Console.ReadLine();
+						Ejercicio_Propuesto_5.Operaciones();
 						break;
 					case 8:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Manipulacion de un Arreglo.");
 						Console.ReadLine();
+						Manipulacion_Arreglo.Operaciones();
 						break;
 					case 9:
 						Console.Clear();
