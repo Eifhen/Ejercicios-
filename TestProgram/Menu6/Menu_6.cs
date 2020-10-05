@@ -21,11 +21,11 @@ namespace TestProgram.Menu6
 				Console.WriteLine("****************************************************************************");
 				Console.WriteLine("  [ Selecciona la Operacion que desea realizar ] ");
 				Console.WriteLine("****************************************************************************");
-				Console.WriteLine("  (1) Operacion  1 : ");
-				Console.WriteLine("  (2) Operacion  2 : ");
-				Console.WriteLine("  (3) Operacion  3 : ");
-				Console.WriteLine("  (4) Operacion  4 : ");
-				Console.WriteLine("  (5) Operacion  5 : ");
+				Console.WriteLine("  (1) Operacion  1 : Pasar una Frase a un Arreglo.");
+				Console.WriteLine("  (2) Operacion  2 : Suma de Elementos Pares e Impares en un Arreglo.");
+				Console.WriteLine("  (3) Operacion  3 : Mayor o Menor de un Arreglo de N Elementos.");
+				Console.WriteLine("  (4) Operacion  4 : Obtener el digito verificador de la Cedula.");
+				Console.WriteLine("  (5) Operacion  5 : Insertar un Elemento en un Arreglo.");
 				Console.WriteLine("  (6) Operacion  6 : ");
 				Console.WriteLine("  (7) Operacion  7 : ");
 				Console.WriteLine("  (8) Operacion  8 : ");
@@ -42,28 +42,33 @@ namespace TestProgram.Menu6
 
 					case 1:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Opcion : Pasar una Frase a un Arreglo.");
 						Console.ReadLine();
+						Frase_Arreglo.Operaciones();
 						break;
 					case 2:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Suma de Elementos Pares e Impares en un Arreglo ");
 						Console.ReadLine();
+						Suma_de_Elementos_Arreglo.Operaciones();
 						break;
 					case 3:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Mayor o Menor de un Arreglo de N Elementos");
 						Console.ReadLine();
+						Mayor_Menor_Arreglo_N_Numeros.Operaciones();
 						break;
 					case 4:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Obtener el Digito verificador de la Cedula.");
 						Console.ReadLine();
+						Obtener_Digito_Cedula.Operaciones();
 						break;
 					case 5:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Insertar un Elemento en un Arreglo.");
 						Console.ReadLine();
+						Insertar_Elemento_Arreglo.Operacioens();
 						break;
 					case 6:
 						Console.Clear();

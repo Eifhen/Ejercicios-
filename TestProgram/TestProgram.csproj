@@ -97,7 +97,12 @@
     <Compile Include="Menu5\Numero_Aleatorio.cs" />
     <Compile Include="Menu5\Promedio_Sueldos.cs" />
     <Compile Include="Menu5\Votaciones_por_Sector.cs" />
+    <Compile Include="Menu6\Frase_Arreglo.cs" />
+    <Compile Include="Menu6\Insertar_Elemento_Arreglo.cs" />
+    <Compile Include="Menu6\Mayor_Menor_Arreglo_N_Numeros.cs" />
     <Compile Include="Menu6\Menu_6.cs" />
+    <Compile Include="Menu6\Obtener_Digito_Cedula.cs" />
+    <Compile Include="Menu6\Suma_de_Elementos_Arreglo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Menu1\Tarifa_Telefonica.cs" />
