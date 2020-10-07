@@ -108,6 +108,7 @@
     <Compile Include="Menu6\Suma_Arreglos.cs" />
     <Compile Include="Menu6\Suma_Arreglos_Intercalado.cs" />
     <Compile Include="Menu6\Suma_de_Elementos_Arreglo.cs" />
+    <Compile Include="Menu7\Menu_7.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Menu1\Tarifa_Telefonica.cs" />
