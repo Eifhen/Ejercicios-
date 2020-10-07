@@ -26,11 +26,11 @@ namespace TestProgram.Menu6
 				Console.WriteLine("  (3) Operacion  3 : Mayor o Menor de un Arreglo de N Elementos.");
 				Console.WriteLine("  (4) Operacion  4 : Obtener el digito verificador de la Cedula.");
 				Console.WriteLine("  (5) Operacion  5 : Insertar un Elemento en un Arreglo.");
-				Console.WriteLine("  (6) Operacion  6 : ");
-				Console.WriteLine("  (7) Operacion  7 : ");
-				Console.WriteLine("  (8) Operacion  8 : ");
-				Console.WriteLine("  (9) Operacion  9 : ");
-				Console.WriteLine(" (10) Operacion 10 : ");
+				Console.WriteLine("  (6) Operacion  6 : Eliminar un Elemento en un Arreglo.");
+				Console.WriteLine("  (7) Operacion  7 : Suma de Dos Arreglos de 5 Elementos.");
+				Console.WriteLine("  (8) Operacion  8 : Suma de Dos Arreglos de 5 Elementos Intercalado.");
+				Console.WriteLine("  (9) Operacion  9 : Ejercicio Propuesto 6.");
+				Console.WriteLine(" (10) Operacion 10 : Ejercicio Propuesto 7.");
 				Console.WriteLine("");
 				Console.WriteLine("**************************************************************************");
 				Console.WriteLine(" (99) Operacion : Salir del Menu Actual. ");
@@ -72,28 +72,33 @@ namespace TestProgram.Menu6
 						break;
 					case 6:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Eliminar Elementos en un Arreglo.");
 						Console.ReadLine();
+						Eliminar_Elemento_Arreglo.Operaciones();
 						break;
 					case 7:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Suma de Dos Arreglos de 5 Elementos.");
 						Console.ReadLine();
+						Suma_Arreglos.Operaciones();
 						break;
 					case 8:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion :  Suma de Dos Arreglos de 5 Elementos Intercalado.");
 						Console.ReadLine();
+						Suma_Arreglos_Intercalado.Operaciones();
 						break;
 					case 9:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Ejercicio Propuesto 6.");
 						Console.ReadLine();
+						Ejercicio_Propuesto_6.Operaciones();
 						break;
 					case 10:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Ejercicio Propuesto 7.");
 						Console.ReadLine();
+						Ejercicio_Propuesto_7.Operaciones();
 						break;
 					case 99:
 						Console.Clear();
