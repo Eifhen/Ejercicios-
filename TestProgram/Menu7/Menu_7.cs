@@ -21,11 +21,11 @@ namespace TestProgram.Menu7
 				Console.WriteLine("****************************************************************************");
 				Console.WriteLine("  [ Selecciona la Operacion que desea realizar ] ");
 				Console.WriteLine("****************************************************************************");
-				Console.WriteLine("  (1) Operacion  1 : ");
-				Console.WriteLine("  (2) Operacion  2 : ");
-				Console.WriteLine("  (3) Operacion  3 : ");
-				Console.WriteLine("  (4) Operacion  4 : ");
-				Console.WriteLine("  (5) Operacion  5 : ");
+				Console.WriteLine("  (1) Operacion  1 : Numero Decimal a Binario.");
+				Console.WriteLine("  (2) Operacion  2 : Numero Decimal a Octal.");
+				Console.WriteLine("  (3) Operacion  3 : Numero Decimal a Hexadecimal.");
+				Console.WriteLine("  (4) Operacion  4 : Ejercicio Propuesto 8.");
+				Console.WriteLine("  (5) Operacion  5 : Ordenamiento de un Arreglo.");
 				Console.WriteLine("  (6) Operacion  6 : ");
 				Console.WriteLine("  (7) Operacion  7 : ");
 				Console.WriteLine("  (8) Operacion  8 : ");
@@ -42,28 +42,33 @@ namespace TestProgram.Menu7
 
 					case 1:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Numero Decimal a Binario");
 						Console.ReadLine();
+						Numero_Decimal_a_Binario.Operaciones();
 						break;
 					case 2:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Numero Decimal a Octal.");
 						Console.ReadLine();
+						Numero_Decimal_a_Octal.Operaciones();
 						break;
 					case 3:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Numero Decimal a Hexadecimal.");
 						Console.ReadLine();
+						Numero_Decimal_a_Hexadecimal.Operaciones();
 						break;
 					case 4:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Ejercicio Propuesto 8.");
 						Console.ReadLine();
+						Ejercicio_Propuesto_8.Operaciones();
 						break;
 					case 5:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Ordenamiento de un Arreglo.");
 						Console.ReadLine();
+						Ordenamiento_Arreglo.Operaciones();
 						break;
 					case 6:
 						Console.Clear();
