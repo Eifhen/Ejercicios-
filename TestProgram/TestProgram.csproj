@@ -108,12 +108,17 @@
     <Compile Include="Menu6\Suma_Arreglos.cs" />
     <Compile Include="Menu6\Suma_Arreglos_Intercalado.cs" />
     <Compile Include="Menu6\Suma_de_Elementos_Arreglo.cs" />
+    <Compile Include="Menu7\Buscar_Elemento_en_Arreglo.cs" />
+    <Compile Include="Menu7\Busqueda_Binaria_Elemento_Arreglo.cs" />
     <Compile Include="Menu7\Ejercicio_Propuesto_8.cs" />
+    <Compile Include="Menu7\Ejercicio_Propuesto_9.cs" />
     <Compile Include="Menu7\Menu_7.cs" />
     <Compile Include="Menu7\Numero_Decimal_a_Binario.cs" />
     <Compile Include="Menu7\Numero_Decimal_a_Hexadecimal.cs" />
     <Compile Include="Menu7\Numero_Decimal_a_Octal.cs" />
     <Compile Include="Menu7\Ordenamiento_Arreglo.cs" />
+    <Compile Include="Menu7\Ordenamiento_Arreglo_Metodo_Burbuja.cs" />
+    <Compile Include="Menu7\Prueba_Array.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Menu1\Tarifa_Telefonica.cs" />

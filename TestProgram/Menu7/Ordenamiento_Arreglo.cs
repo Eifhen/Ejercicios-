@@ -60,6 +60,7 @@ namespace TestProgram.Menu7
 					}
 				}
 			}
+
 			// Arreglo Ordenado Descendentemente
 			Console.WriteLine("Arreglo Ordenado Descendentemente");
 			Console.WriteLine("********************************************************");
@@ -67,6 +68,7 @@ namespace TestProgram.Menu7
 			{
 				Console.WriteLine(arreglo[i]);
 			}
+
 			Console.WriteLine("");
 			Console.WriteLine("********************************************************");
 			Console.WriteLine("Pulsa para volver al Menu.");
