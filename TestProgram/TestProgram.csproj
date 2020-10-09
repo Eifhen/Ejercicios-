@@ -119,6 +119,10 @@
     <Compile Include="Menu7\Ordenamiento_Arreglo.cs" />
     <Compile Include="Menu7\Ordenamiento_Arreglo_Metodo_Burbuja.cs" />
     <Compile Include="Menu7\Prueba_Array.cs" />
+    <Compile Include="Menu7\Tablas_Multiplicar_Matriz.cs" />
+    <Compile Include="Menu8\Aleatorios_Matriz.cs" />
+    <Compile Include="Menu8\Menu_8.cs" />
+    <Compile Include="Menu8\Sumar_Elementos_Matriz.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Menu1\Tarifa_Telefonica.cs" />
