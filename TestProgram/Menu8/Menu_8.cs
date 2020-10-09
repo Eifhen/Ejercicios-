@@ -23,8 +23,8 @@ namespace TestProgram.Menu8
 				Console.WriteLine("****************************************************************************");
 				Console.WriteLine("  (1) Operacion  1 : Generar Aleatorios en una Matriz 5x5.");
 				Console.WriteLine("  (2) Operacion  2 : Sumar Elementos de una Matriz NxN.");
-				Console.WriteLine("  (3) Operacion  3 : Sumar Elementos de Fila y una Columna Matriz de 5x5.");
-				Console.WriteLine("  (4) Operacion  4 : ");
+				Console.WriteLine("  (3) Operacion  3 : Sumar Elementos de una Fila y una Columna Matriz de 5x5.");
+				Console.WriteLine("  (4) Operacion  4 : Sumar Elementos de Diagonal Principal y Secundaria Matriz NxN.");
 				Console.WriteLine("  (5) Operacion  5 : ");
 				Console.WriteLine("  (6) Operacion  6 : ");
 				Console.WriteLine("  (7) Operacion  7 : ");
@@ -53,14 +53,15 @@ namespace TestProgram.Menu8
 						break;
 					case 3:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Operacion : Sumar Elementos de Fila y una Columna Matriz de 5x5.");
+						Console.WriteLine("Has Seleccionado la Operacion : Sumar Elementos de una Fila y una Columna Matriz de 5x5.");
 						Console.ReadLine();
 						Sumar_Fila_Columna.Operaciones();
 						break;
 					case 4:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Sumar Elementos de Diagonal Principal y Secundaria Matriz NxN.");
 						Console.ReadLine();
+						Sumar_Diagonales_Matriz.Operaciones();
 						break;
 					case 5:
 						Console.Clear();
