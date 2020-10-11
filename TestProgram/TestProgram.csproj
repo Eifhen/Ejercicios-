@@ -121,7 +121,10 @@
     <Compile Include="Menu7\Prueba_Array.cs" />
     <Compile Include="Menu7\Tablas_Multiplicar_Matriz.cs" />
     <Compile Include="Menu8\Aleatorios_Matriz.cs" />
+    <Compile Include="Menu8\Ejercicio_Propuesto_10.cs" />
+    <Compile Include="Menu8\Formar_Letra_Matriz_NxN.cs" />
     <Compile Include="Menu8\Menu_8.cs" />
+    <Compile Include="Menu8\Sumar_Diagonales_Matriz.cs" />
     <Compile Include="Menu8\Sumar_Elementos_Matriz.cs" />
     <Compile Include="Menu8\Sumar_Fila_Columna.cs" />
     <Compile Include="Program.cs" />

@@ -25,9 +25,9 @@ namespace TestProgram.Menu8
 				Console.WriteLine("  (2) Operacion  2 : Sumar Elementos de una Matriz NxN.");
 				Console.WriteLine("  (3) Operacion  3 : Sumar Elementos de una Fila y una Columna Matriz de 5x5.");
 				Console.WriteLine("  (4) Operacion  4 : Sumar Elementos de Diagonal Principal y Secundaria Matriz NxN.");
-				Console.WriteLine("  (5) Operacion  5 : ");
-				Console.WriteLine("  (6) Operacion  6 : ");
-				Console.WriteLine("  (7) Operacion  7 : ");
+				Console.WriteLine("  (5) Operacion  5 : Forma la Letra (A) en una Matriz NxN.");
+				Console.WriteLine("  (6) Operacion  6 : Ejercicio Propuesto 10.");
+				Console.WriteLine("  (7) Operacion  7 : Formar la Letra (R) en una Matriz NxN.");
 				Console.WriteLine("  (8) Operacion  8 : ");
 				Console.WriteLine("  (9) Operacion  9 : ");
 				Console.WriteLine(" (10) Operacion 10 : ");
@@ -65,13 +65,15 @@ namespace TestProgram.Menu8
 						break;
 					case 5:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Forma la Letra (A) en una Matriz NxN.");
 						Console.ReadLine();
+						Formar_Letra_Matriz_NxN.Operaciones();
 						break;
 					case 6:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Ejercicio Propuesto 10.");
 						Console.ReadLine();
+						Ejercicio_Propuesto_10.Operaciones();
 						break;
 					case 7:
 						Console.Clear();
