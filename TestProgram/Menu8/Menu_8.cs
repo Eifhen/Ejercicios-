@@ -28,9 +28,9 @@ namespace TestProgram.Menu8
 				Console.WriteLine("  (5) Operacion  5 : Forma la Letra (A) en una Matriz NxN.");
 				Console.WriteLine("  (6) Operacion  6 : Ejercicio Propuesto 10.");
 				Console.WriteLine("  (7) Operacion  7 : Formar la Letra (R) en una Matriz NxN.");
-				Console.WriteLine("  (8) Operacion  8 : ");
-				Console.WriteLine("  (9) Operacion  9 : ");
-				Console.WriteLine(" (10) Operacion 10 : ");
+				Console.WriteLine("  (8) Operacion  8 : Sumar Elementos Diagonal Principal y Secundaria.");
+				Console.WriteLine("  (9) Operacion  9 : Numero Mayor y Menor en una Matriz NxN.");
+				Console.WriteLine(" (10) Operacion 10 : Ordenamiento de una Matriz NxN.");
 				Console.WriteLine("");
 				Console.WriteLine("**************************************************************************");
 				Console.WriteLine(" (99) Operacion : Salir del Menu Actual. ");
@@ -77,23 +77,27 @@ namespace TestProgram.Menu8
 						break;
 					case 7:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Formar la Letra ( R ) en una Matriz NxN");
 						Console.ReadLine();
+						Formar_Letra_R.Operaciones();
 						break;
 					case 8:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Sumar Elementos Diagonal Principal y Secundaria.");
 						Console.ReadLine();
+						Sumar_Elementos_Diagonales_Matriz.Operaciones();
 						break;
 					case 9:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Numero Mayor o Menor en una Matriz NxN.");
 						Console.ReadLine();
+						Numero_Mayor_o_Menor_Matriz_NxN.Operaciones();
 						break;
 					case 10:
 						Console.Clear();
-						Console.WriteLine("");
+						Console.WriteLine("Has Seleccionado la Operacion : Ordenamiento de una Matriz NxN.");
 						Console.ReadLine();
+						Ordenar_Matriz.Operaciones();
 						break;
 					case 99:
 						Console.Clear();
