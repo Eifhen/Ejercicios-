@@ -9,6 +9,7 @@ using TestProgram.Menu5;
 using TestProgram.Menu6;
 using TestProgram.Menu7;
 using TestProgram.Menu8;
+using TestProgram.Menu9;
 
 namespace TestProgram
 {
@@ -23,6 +24,8 @@ namespace TestProgram
 		Menu_6 menu6 = new Menu_6();
 		Menu_7 menu7 = new Menu_7();
 		Menu_8 menu8 = new Menu_8();
+		Menu_9 menu9 = new Menu_9();
+
 		public void Operaciones() 
 		{
 			string linea;
@@ -43,6 +46,7 @@ namespace TestProgram
 				Console.WriteLine("*   [6] -- IR Al Menu 6                                         *");
 				Console.WriteLine("*   [7] -- IR Al Menu 7                                         *");
 				Console.WriteLine("*   [8] -- IR Al Menu 8                                         *");
+				Console.WriteLine("*   [8] -- IR Al Menu 9                                         *");
 				Console.WriteLine("*                                                               *");
 				Console.WriteLine("*****************************************************************");
 				Console.WriteLine("*  [99] -- SALIR                                                *");
@@ -106,6 +110,7 @@ namespace TestProgram
 						Console.Clear();
 						Console.WriteLine("Has Seleccionado el MENU 9");
 						Console.ReadLine();
+						menu9.Operaciones();
 						break;
 					case 10:
 						Console.Clear();
