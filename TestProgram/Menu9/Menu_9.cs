@@ -31,9 +31,9 @@ namespace TestProgram.Menu9
 				Console.WriteLine("  (6) Operacion  6 : Matriz Transpuesta NxN.");
 				Console.WriteLine("  (7) Operacion  7 : Mayores de Cada Fila de una Matriz NxN en un Vector.");
 				Console.WriteLine("  (8) Operacion  8 : Menores de Cada Columna de una Matriz NxN en un Vector.");
-				Console.WriteLine("  (9) Operacion  9 : ");
-				Console.WriteLine(" (10) Operacion 10 : ");
-				Console.WriteLine("");
+				Console.WriteLine("  (9) Operacion  9 : Promedio de Cada Columna de una Matriz de NxN en un Vector.");
+				Console.WriteLine(" (10) Operacion 10 : Votaciones: Suma de Cada Columna Representa un Candidato,");
+				Console.WriteLine("                     Obtener al Candidato Ganador.  ");
 				Console.WriteLine("**************************************************************************");
 				Console.WriteLine(" (99) Operacion : Salir del Menu Actual. ");
 				Console.WriteLine("**************************************************************************");
@@ -91,13 +91,16 @@ namespace TestProgram.Menu9
 						break;
 					case 9:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : ");
+						Console.WriteLine("Has Seleccionado la Opcion : Promedio de Cada Columna de una Matriz de NxN en un Vector. ");
 						Console.ReadLine();
+						Promedio_Columna.Operaciones();
 						break;
 					case 10:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : ");
+						Console.WriteLine("Has Seleccionado la Opcion : Votaciones: Suma de Cada Columna Representa un Candidato, \n" +
+										  " Obtener al Candidato Ganador.");
 						Console.ReadLine();
+						Votaciones.Operaciones();
 						break;
 					case 99:
 						Console.Clear();

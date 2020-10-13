@@ -137,9 +137,11 @@
     <Compile Include="Menu9\Menores_de_Cada_Columna_Matriz_a_Vector.cs" />
     <Compile Include="Menu9\Menu_9.cs" />
     <Compile Include="Menu9\Multiplicacion_Matrices_4x4.cs" />
+    <Compile Include="Menu9\Promedio_Columna.cs" />
     <Compile Include="Menu9\Suma_Matrices_5x5.cs" />
     <Compile Include="Menu9\Triangulo_Pascal_Forma_1.cs" />
     <Compile Include="Menu9\Triangulo_Pascal_Forma_2.cs" />
+    <Compile Include="Menu9\Votaciones.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Menu1\Tarifa_Telefonica.cs" />

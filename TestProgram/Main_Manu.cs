@@ -46,7 +46,8 @@ namespace TestProgram
 				Console.WriteLine("*   [6] -- IR Al Menu 6                                         *");
 				Console.WriteLine("*   [7] -- IR Al Menu 7                                         *");
 				Console.WriteLine("*   [8] -- IR Al Menu 8                                         *");
-				Console.WriteLine("*   [8] -- IR Al Menu 9                                         *");
+				Console.WriteLine("*   [9] -- IR Al Menu 9                                         *");
+				Console.WriteLine("*  [10] -- IR Al Menu 10                                        *");
 				Console.WriteLine("*                                                               *");
 				Console.WriteLine("*****************************************************************");
 				Console.WriteLine("*  [99] -- SALIR                                                *");
