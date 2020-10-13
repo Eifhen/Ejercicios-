@@ -69,6 +69,7 @@ namespace TestProgram.Menu9
 						Console.Clear();
 						Console.WriteLine("Has Seleccionado la Opcion : Generacion del Triangulo de Pascal Forma 2.");
 						Console.ReadLine();
+						Triangulo_Pascal_Forma_2.Operaciones();
 						break;
 					case 6:
 						Console.Clear();
