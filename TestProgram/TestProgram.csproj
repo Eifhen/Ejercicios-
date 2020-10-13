@@ -134,6 +134,7 @@
     <Compile Include="Menu9\Ejercicio_Propuesto_11.cs" />
     <Compile Include="Menu9\Matriz_Transpuesta_NxN.cs" />
     <Compile Include="Menu9\Mayores_de_Cada_Fila_Matriz_a_Vector.cs" />
+    <Compile Include="Menu9\Menores_de_Cada_Columna_Matriz_a_Vector.cs" />
     <Compile Include="Menu9\Menu_9.cs" />
     <Compile Include="Menu9\Multiplicacion_Matrices_4x4.cs" />
     <Compile Include="Menu9\Suma_Matrices_5x5.cs" />
