@@ -28,9 +28,9 @@ namespace TestProgram.Menu9
 				Console.WriteLine("  (3) Operacion  3 : Ejercicio Propuesto 11.");
 				Console.WriteLine("  (4) Operacion  4 : Generacion del Triangulo de Pascal Forma 1.");
 				Console.WriteLine("  (5) Operacion  5 : Generacion del Triangulo de Pascal Forma 2.");
-				Console.WriteLine("  (6) Operacion  6 : ");
-				Console.WriteLine("  (7) Operacion  7 : ");
-				Console.WriteLine("  (8) Operacion  8 : ");
+				Console.WriteLine("  (6) Operacion  6 : Matriz Transpuesta NxN.");
+				Console.WriteLine("  (7) Operacion  7 : Mayores de Cada Fila de una Matriz NxN en un Vector.");
+				Console.WriteLine("  (8) Operacion  8 : Menores de Cada Columna de una Matriz NxN en un Vector.");
 				Console.WriteLine("  (9) Operacion  9 : ");
 				Console.WriteLine(" (10) Operacion 10 : ");
 				Console.WriteLine("");
@@ -73,18 +73,21 @@ namespace TestProgram.Menu9
 						break;
 					case 6:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : ");
+						Console.WriteLine("Has Seleccionado la Opcion : Matriz Transpuesta NxN.");
 						Console.ReadLine();
+						Matriz_Transpuesta_NxN.Operaciones();
 						break;
 					case 7:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : ");
+						Console.WriteLine("Has Seleccionado la Opcion : Mayores de Cada Fila de una Matriz NxN en un Vector.");
 						Console.ReadLine();
+						Mayores_de_Cada_Fila_Matriz_a_Vector.Operaciones();
 						break;
 					case 8:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : ");
+						Console.WriteLine("Has Seleccionado la Opcion : Menores de Cada Columna de una Matriz NxN en un Vector.");
 						Console.ReadLine();
+						Menores_de_Cada_Columna_Matriz_a_Vector.Operaciones();
 						break;
 					case 9:
 						Console.Clear();

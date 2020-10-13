@@ -15,7 +15,7 @@ C:\Users\jimen\source\repos\Ejercicios-\TestProgram\obj\Debug\TestProgram.pdb
 C:\Users\Gabriel Jiménez\source\repos\Ejercicios-\TestProgram\bin\Debug\TestProgram.exe.config
 C:\Users\Gabriel Jiménez\source\repos\Ejercicios-\TestProgram\bin\Debug\TestProgram.exe
 C:\Users\Gabriel Jiménez\source\repos\Ejercicios-\TestProgram\bin\Debug\TestProgram.pdb
-C:\Users\Gabriel Jiménez\source\repos\Ejercicios-\TestProgram\obj\Debug\TestProgram.csprojAssemblyReference.cache
 C:\Users\Gabriel Jiménez\source\repos\Ejercicios-\TestProgram\obj\Debug\TestProgram.csproj.CoreCompileInputs.cache
 C:\Users\Gabriel Jiménez\source\repos\Ejercicios-\TestProgram\obj\Debug\TestProgram.exe
 C:\Users\Gabriel Jiménez\source\repos\Ejercicios-\TestProgram\obj\Debug\TestProgram.pdb
+C:\Users\Gabriel Jiménez\source\repos\Ejercicios-\TestProgram\obj\Debug\TestProgram.csprojAssemblyReference.cache
