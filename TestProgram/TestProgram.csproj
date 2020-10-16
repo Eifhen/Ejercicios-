@@ -44,6 +44,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main_Manu.cs" />
+    <Compile Include="Menu10\ClasesStaticas.cs" />
+    <Compile Include="Menu10\Comprobar_Multiplo.cs" />
+    <Compile Include="Menu10\Comprobar_Numero_Primo.cs" />
+    <Compile Include="Menu10\Cubo_Numero.cs" />
+    <Compile Include="Menu10\Factorial_Numero.cs" />
+    <Compile Include="Menu10\Invertir_Frase.cs" />
+    <Compile Include="Menu10\Mayor_3_Numeros.cs" />
+    <Compile Include="Menu10\Menu_10.cs" />
+    <Compile Include="Menu10\Numero_Dia_Semana.cs" />
+    <Compile Include="Menu10\Valor_Absoluto.cs" />
     <Compile Include="Menu1\EjercicioPropuesto2.cs" />
     <Compile Include="Menu1\FormatoSalida.cs" />
     <Compile Include="Menu1\MathTest.cs" />

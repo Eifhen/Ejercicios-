@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TestProgram.Menu10;
 using TestProgram.Menu3;
 using TestProgram.Menu4;
 using TestProgram.Menu5;
@@ -117,6 +118,7 @@ namespace TestProgram
 						Console.Clear();
 						Console.WriteLine("Has Seleccionado el MENU 10");
 						Console.ReadLine();
+						Menu_10.Operaciones();
 						break;
 					case 99:
 						Console.Clear();
