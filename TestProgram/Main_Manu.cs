@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using TestProgram.Menu10;
+using TestProgram.Menu11;
 using TestProgram.Menu3;
 using TestProgram.Menu4;
 using TestProgram.Menu5;
@@ -49,6 +50,7 @@ namespace TestProgram
 				Console.WriteLine("*   [8] -- IR Al Menu 8                                         *");
 				Console.WriteLine("*   [9] -- IR Al Menu 9                                         *");
 				Console.WriteLine("*  [10] -- IR Al Menu 10                                        *");
+				Console.WriteLine("*  [11] -- IR Al Menu 11                                        *");
 				Console.WriteLine("*                                                               *");
 				Console.WriteLine("*****************************************************************");
 				Console.WriteLine("*  [99] -- SALIR                                                *");
@@ -119,6 +121,12 @@ namespace TestProgram
 						Console.WriteLine("Has Seleccionado el MENU 10");
 						Console.ReadLine();
 						Menu_10.Operaciones();
+						break;
+					case 11:
+						Console.Clear();
+						Console.WriteLine("Has Seleccionado el MENU 11");
+						Console.ReadLine();
+						Menu_11.Operaciones();
 						break;
 					case 99:
 						Console.Clear();

@@ -104,7 +104,7 @@ namespace TestProgram.Menu9
 						break;
 					case 99:
 						Console.Clear();
-						Console.WriteLine("Has Elegido Salir del Menu 8.");
+						Console.WriteLine("Has Elegido Salir del Menu 9.");
 						Console.ReadLine();
 						salida = 1;
 						break;

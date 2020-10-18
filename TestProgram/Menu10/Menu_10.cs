@@ -30,7 +30,7 @@ namespace TestProgram.Menu10
 				Console.WriteLine("  (7) Operacion  7 : Comprobar si un Numero es Multiplo de Otro.            ");
 				Console.WriteLine("  (8) Operacion  8 : Numero a Que Dia de la Semana Corresponde.             ");
 				Console.WriteLine("  (9) Operacion  9 : Numero Comprobar si es Primo.                          ");
-				Console.WriteLine(" (10) Operacion 10 :                                                        ");
+				Console.WriteLine(" (10) Operacion 10 : Menor en un Arreglo.                                   ");
 				Console.WriteLine("");
 				Console.WriteLine("**************************************************************************");
 				Console.WriteLine(" (99) Operacion : Salir del Menu Actual. ");
@@ -97,12 +97,13 @@ namespace TestProgram.Menu10
 						break;
 					case 10:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion :");
+						Console.WriteLine("Has Seleccionado la Opcion : Menor en un Arreglo. ");
 						Console.ReadLine();
+						Menor_en_Arreglo.Operaciones();
 						break;
 					case 99:
 						Console.Clear();
-						Console.WriteLine("Has Elegido Salir del Menu 8.");
+						Console.WriteLine("Has Elegido Salir del Menu 10.");
 						Console.ReadLine();
 						salida = 1;
 						break;
