@@ -59,10 +59,16 @@
     <Compile Include="Menu11\Ejercicio_Propuesto_12.cs" />
     <Compile Include="Menu11\Menu_11.cs" />
     <Compile Include="Menu11\Trasformar_Decimal_a_Binario.cs" />
+    <Compile Include="Menu12 - Ejercicios No Resueltos\Ejercicio_10.cs" />
+    <Compile Include="Menu12 - Ejercicios No Resueltos\Ejercicio_7.cs" />
+    <Compile Include="Menu12 - Ejercicios No Resueltos\Ejercicio_6.cs" />
     <Compile Include="Menu12 - Ejercicios No Resueltos\Ejercicio_1.cs" />
     <Compile Include="Menu12 - Ejercicios No Resueltos\Ejercicio_2.cs" />
     <Compile Include="Menu12 - Ejercicios No Resueltos\Ejercicio_3.cs" />
     <Compile Include="Menu12 - Ejercicios No Resueltos\Ejercicio_4.cs" />
+    <Compile Include="Menu12 - Ejercicios No Resueltos\Ejercicio_5.cs" />
+    <Compile Include="Menu12 - Ejercicios No Resueltos\Ejercicio_8.cs" />
+    <Compile Include="Menu12 - Ejercicios No Resueltos\Ejercicio_9.cs" />
     <Compile Include="Menu12 - Ejercicios No Resueltos\Menu_12.cs" />
     <Compile Include="Menu1\EjercicioPropuesto2.cs" />
     <Compile Include="Menu1\FormatoSalida.cs" />

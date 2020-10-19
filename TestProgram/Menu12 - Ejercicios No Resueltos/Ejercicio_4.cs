@@ -42,6 +42,7 @@ namespace TestProgram.Menu12___Ejercicios_No_Resueltos
 			numero1 = int.Parse(Console.ReadLine());
 			Console.WriteLine("********************************************************");
 
+
 			// validamos
 			numero1 = objeto.IsValid(numero1);
 

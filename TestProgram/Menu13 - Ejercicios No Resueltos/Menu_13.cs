@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TestProgram.Menu12___Ejercicios_No_Resueltos;
 
-namespace TestProgram.Menu12
+namespace TestProgram.Menu13___Ejercicios_No_Resueltos
 {
-	class Menu_12
+	class Menu_13
 	{
 		public static void Operaciones()
 		{
@@ -17,7 +16,7 @@ namespace TestProgram.Menu12
 			while (salida == 0)
 			{
 				Console.Clear();
-				Console.WriteLine("[ MENU 12 : Ejercicios No Resueltos ]");
+				Console.WriteLine("[ MENU 13 : Ejercicios No Resueltos ]");
 				Console.WriteLine("****************************************************************************");
 				Console.WriteLine("  [ Selecciona la Operacion que desea realizar ] ");
 				Console.WriteLine("****************************************************************************");
@@ -42,71 +41,57 @@ namespace TestProgram.Menu12
 				{
 					case 1:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : Ejercicio 1.");
+						Console.WriteLine("Has Seleccionado la Opcion : ");
 						Console.ReadLine();
-						Ejercicio_1.Operaciones();
 						break;
 					case 2:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : Ejercicio 2.");
+						Console.WriteLine("Has Seleccionado la Opcion : ");
 						Console.ReadLine();
-						Ejercicio_2.Operaciones();
 						break;
 					case 3:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : Ejercicio 3.");
+						Console.WriteLine("Has Seleccionado la Opcion : ");
 						Console.ReadLine();
-						Ejercicio_3.Operaciones();
 						break;
-
 					case 4:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : Ejercicio 4.");
+						Console.WriteLine("Has Seleccionado la Opcion : ");
 						Console.ReadLine();
-						Ejercicio_4.Operaciones();	
 						break;
-
 					case 5:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : Ejercicio 5.");
+						Console.WriteLine("Has Seleccionado la Opcion : ");
 						Console.ReadLine();
-						Ejercicio_5.Operaciones();
 						break;
-
 					case 6:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : Ejercicio 6.");
+						Console.WriteLine("Has Seleccionado la Opcion : ");
 						Console.ReadLine();
-						Ejercicio_6.Operaciones();
 						break;
 					case 7:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : Ejercicio 7.");
+						Console.WriteLine("Has Seleccionado la Opcion : ");
 						Console.ReadLine();
-						Ejercicio_7.Operaciones();
 						break;
 					case 8:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : Ejercicio 8.");
+						Console.WriteLine("Has Seleccionado la Opcion : ");
 						Console.ReadLine();
-						Ejercicio_8.Operaciones();
 						break;
-
 					case 9:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : Ejercicio 9.");
+						Console.WriteLine("Has Seleccionado la Opcion : ");
 						Console.ReadLine();
-						Ejercicio_9.Operaciones();
 						break;
 					case 10:
 						Console.Clear();
-						Console.WriteLine("Has Seleccionado la Opcion : Ejercicio 10.");
+						Console.WriteLine("Has Seleccionado la Opcion : ");
 						Console.ReadLine();
-						Ejercicio_10.Operaciones();
 						break;
 					case 99:
 						Console.Clear();
-						Console.WriteLine("Has Elegido Salir del Menu 12.");
+						Console.WriteLine("Has Elegido Salir del Menu 13.");
 						Console.ReadLine();
 						salida = 1;
 						break;
@@ -117,5 +102,5 @@ namespace TestProgram.Menu12
 				}
 			}
 		}
-	} // End Class
+	}
 }
